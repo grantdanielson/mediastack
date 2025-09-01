@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -e
 
-FOLDER_FOR_YAMLS=/docker             # <-- Folder where the yaml and .env files are located
+FOLDER_FOR_YAMLS=/mediastack/appdata/base-working-files    # <-- Folder where the yaml and .env files are located
 
 # Check if .env exists
 cd $FOLDER_FOR_YAMLS
@@ -51,8 +51,8 @@ sudo -E mkdir -p $FOLDER_FOR_MEDIA/usenet/{anime,audio,books,comics,complete,con
 sudo -E mkdir -p $FOLDER_FOR_MEDIA/torrents/{anime,audio,books,comics,complete,console,incomplete,movies,music,prowlarr,software,tv,xxx}
 sudo -E mkdir -p $FOLDER_FOR_MEDIA/watch
 sudo -E mkdir -p $FOLDER_FOR_MEDIA/filebot/{input,output}
-sudo -E chmod -R 2775 $FOLDER_FOR_MEDIA $FOLDER_FOR_DATA            # $FOLDER_FOR_YAMLS     # <-- Enable if you need to set permissions on YAML files / folder
-sudo -E chown -R $PUID:$PGID $FOLDER_FOR_MEDIA $FOLDER_FOR_DATA     # $FOLDER_FOR_YAMLS     # <-- Enable if you need to set permissions on YAML files / folder
+# sudo -E chmod -R 2775 $FOLDER_FOR_MEDIA $FOLDER_FOR_DATA            # $FOLDER_FOR_YAMLS     # <-- Enable if you need to set permissions on YAML files / folder
+# sudo -E chown -R $PUID:$PGID $FOLDER_FOR_MEDIA $FOLDER_FOR_DATA     # $FOLDER_FOR_YAMLS     # <-- Enable if you need to set permissions on YAML files / folder
 
 # This checks for missing variables and invalid docker compose configuration
 echo 
