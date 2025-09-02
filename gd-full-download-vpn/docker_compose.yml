@@ -847,14 +847,14 @@ services:
       - UN_FOLDERS_BUFFER=20000
       ## Mylar Settings
       ## Mylar Config - Copy API Key from: http://mylar:8090/general/settings
-      - UN_MYLAR_0_URL=http://mylar:8090
-      - UN_MYLAR_0_API_KEY=0123456789abcdef0123456789abcdef
-      - UN_MYLAR_0_PATHS_0=/data/torrents/comics
-      - UN_MYLAR_0_PROTOCOLS=torrent
-      - UN_MYLAR_0_TIMEOUT=10s
-      - UN_MYLAR_0_DELETE_DELAY=5m
-      - UN_MYLAR_0_DELETE_ORIG=false
-      - UN_MYLAR_0_SYNCTHING=false
+      # - UN_MYLAR_0_URL=http://mylar:8090
+      # - UN_MYLAR_0_API_KEY=0123456789abcdef0123456789abcdef
+      # - UN_MYLAR_0_PATHS_0=/data/torrents/comics
+      # - UN_MYLAR_0_PROTOCOLS=torrent
+      # - UN_MYLAR_0_TIMEOUT=10s
+      # - UN_MYLAR_0_DELETE_DELAY=5m
+      # - UN_MYLAR_0_DELETE_ORIG=false
+      # - UN_MYLAR_0_SYNCTHING=false
       ## Sonarr Settings
       ## Sonarr Config - Copy API Key from: http://sonarr:8989/general/settings
       - UN_SONARR_0_URL=http://sonarr:8989
@@ -888,24 +888,24 @@ services:
       - UN_LIDARR_0_SYNCTHING=false
       ## Readarr Settings
       ## Readarr Config - Copy API Key from: http://readarr:8787/general/settings
-      - UN_READARR_0_URL=http://readarr:8787
-      - UN_READARR_0_API_KEY=0123456789abcdef0123456789abcdef
-      - UN_READARR_0_PATHS_0=/data/torrents/books
-      - UN_READARR_0_PROTOCOLS=torrent
-      - UN_READARR_0_TIMEOUT=10s
-      - UN_READARR_0_DELETE_DELAY=5m
-      - UN_READARR_0_DELETE_ORIG=false
-      - UN_READARR_0_SYNCTHING=false
+      # - UN_READARR_0_URL=http://readarr:8787
+      # - UN_READARR_0_API_KEY=0123456789abcdef0123456789abcdef
+      # - UN_READARR_0_PATHS_0=/data/torrents/books
+      # - UN_READARR_0_PROTOCOLS=torrent
+      # - UN_READARR_0_TIMEOUT=10s
+      # - UN_READARR_0_DELETE_DELAY=5m
+      # - UN_READARR_0_DELETE_ORIG=false
+      # - UN_READARR_0_SYNCTHING=false
       ## Whisparr Settings
       ## Whisparr Config - Copy API Key from: http://readarr:6969/general/settings
-      - UN_WHISPARR_0_URL=http://whisparr:6969
-      - UN_WHISPARR_0_API_KEY=0123456789abcdef0123456789abcdef
-      - UN_WHISPARR_0_PATHS_0=/data/torrents/xxx
-      - UN_WHISPARR_0_PROTOCOLS=torrent
-      - UN_WHISPARR_0_TIMEOUT=10s
-      - UN_WHISPARR_0_DELETE_DELAY=5m
-      - UN_WHISPARR_0_DELETE_ORIG=false
-      - UN_WHISPARR_0_SYNCTHING=false
+      # - UN_WHISPARR_0_URL=http://whisparr:6969
+      # - UN_WHISPARR_0_API_KEY=0123456789abcdef0123456789abcdef
+      # - UN_WHISPARR_0_PATHS_0=/data/torrents/xxx
+      # - UN_WHISPARR_0_PROTOCOLS=torrent
+      # - UN_WHISPARR_0_TIMEOUT=10s
+      # - UN_WHISPARR_0_DELETE_DELAY=5m
+      # - UN_WHISPARR_0_DELETE_ORIG=false
+      # - UN_WHISPARR_0_SYNCTHING=false
       ## Watch Folders
       - UN_FOLDER_0_PATH=/data/torrents/complete
       - UN_FOLDER_0_EXTRACT_PATH=
