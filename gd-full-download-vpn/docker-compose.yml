@@ -53,6 +53,7 @@ services:
       - ${WEBUI_PORT_SABNZBD:?err}:8080       # WebUI Portal: SABnzbd
       - ${WEBUI_PORT_SONARR:?err}:8989        # WebUI Portal: Sonarr
       # - ${WEBUI_PORT_WHISPARR:?err}:6969      # WebUI Portal: Whisparr
+      - ${WEBUI_PORT_OVERSEER:?err}:5055      # WebUI Portal: Overseerr
 
       - ${WEBUI_PORT_QBITTORRENT:?err}:${WEBUI_PORT_QBITTORRENT:?err}   # WebUI Portal: qBittorrent
 
