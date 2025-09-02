@@ -384,12 +384,11 @@ services:
     restart: unless-stopped
     volumes:
       - ${FOLDER_FOR_MEDIA:?err}:/data
-      - ${FOLDER_FOR_DATA:?err}/sonarr:/config
+      - ${FOLDER_FOR_DATA:?err}/overseerr:/config
     environment:
       - PUID=${PUID:?err}
       - PGID=${PGID:?err}
       - TZ=${TIMEZONE:?err}
-      - DOCKER_MODS=ghcr.io/themepark-dev/theme.park:sonarr
       - TP_THEME=${TP_THEME:?err}
     network_mode: "service:gluetun"
 #    ports:
